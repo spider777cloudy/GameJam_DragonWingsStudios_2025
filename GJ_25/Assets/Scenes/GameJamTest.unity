@@ -228,6 +228,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!1 &211905115
@@ -348,6 +349,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
 --- !u!1001 &326299436
@@ -1708,6 +1711,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   m_IsActive: 1
@@ -1902,6 +1906,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
   m_IsActive: 0
 --- !u!95 &1463736200
 Animator:
@@ -1928,12 +1934,15 @@ Animator:
 --- !u!4 &1463736201
 Transform:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 =======
 =======
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
   m_ObjectHideFlags: 0
@@ -1949,6 +1958,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1494997423
 GameObject:
@@ -2223,6 +2233,8 @@ RectTransform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
 --- !u!1001 &1563556756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2400,6 +2412,7 @@ Transform:
   m_Children:
   - {fileID: 1650634641}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2410,6 +2423,9 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+  - {fileID: 2114437783}
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
   - {fileID: 2114437783}
 >>>>>>> parent of 847c837 (Room_Spider)
@@ -3230,6 +3246,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 2114437782}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3246,15 +3263,21 @@ RectTransform:
 =======
 --- !u!1001 &8300247615286072118
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+--- !u!1001 &8300247615286072118
+>>>>>>> parent of 847c837 (Room_Spider)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
     m_TransformParent: {fileID: 0}
@@ -3272,6 +3295,7 @@ PrefabInstance:
       value: -3.95
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_TransformParent: {fileID: 1951786129}
     m_Modifications:
@@ -3286,10 +3310,13 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
     - target: {fileID: 697384373275831064, guid: f50eda89dd2977a4399978322c8a875f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3404,14 +3431,19 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
     - target: {fileID: 8297352535535343502, guid: f50eda89dd2977a4399978322c8a875f, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1269947749}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
     - target: {fileID: 1153248031861612035, guid: 25f2300107d45e54a8a087d8a6e66ba1, type: 3}
@@ -3523,6 +3555,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
 =======
@@ -3531,10 +3564,13 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+>>>>>>> parent of 847c837 (Room_Spider)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3561,6 +3597,9 @@ Transform:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 25f2300107d45e54a8a087d8a6e66ba1, type: 3}
 >>>>>>> parent of 847c837 (Room_Spider)
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 25f2300107d45e54a8a087d8a6e66ba1, type: 3}
+>>>>>>> parent of 847c837 (Room_Spider)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3583,6 +3622,7 @@ SceneRoots:
   - {fileID: 326299436}
   - {fileID: 200614504}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3602,6 +3642,9 @@ SceneRoots:
   - {fileID: 1570959742}
   - {fileID: 2011054630}
 >>>>>>> Stashed changes
+=======
+  - {fileID: 1593652037}
+>>>>>>> parent of 847c837 (Room_Spider)
 =======
   - {fileID: 1593652037}
 >>>>>>> parent of 847c837 (Room_Spider)
