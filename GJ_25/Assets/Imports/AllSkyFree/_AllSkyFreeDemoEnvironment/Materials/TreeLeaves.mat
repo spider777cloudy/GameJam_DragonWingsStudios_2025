@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -13,6 +14,9 @@
 =======
 --- !u!114 &-275184316113460420
 >>>>>>> Stashed changes
+=======
+--- !u!114 &-5520750972352630727
+>>>>>>> parent of 847c837 (Room_Spider)
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
