@@ -77,6 +77,6 @@ GJ_25/.vscode/settings.json
 GJ_25/.vscode/launch.json
 GJ_25/.vscode/extensions.json
 GJ_25/Packages/packages-lock.json
-
-.DS_Store
-
+GJ_25/Assets/Scenes/.DS_Store
+GJ_25/Packages/packages-lock.json
+GJ_25/Packages/packages-lock.json
