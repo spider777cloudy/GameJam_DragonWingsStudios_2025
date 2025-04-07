@@ -7,22 +7,26 @@ using Unity.MLAgents.Sensors;
 public class MoveToGoals : Agent
 {
     [SerializeField] private Transform targetTransform;
+
+    [SerializeField] private Material winMats;
+    [SerializeField] private Material loseMats;
+    [SerializeField] private MeshRenderer floorMeshRend;
     public override void OnEpisodeBegin()
     {
-        transform.position = new Vector3(0, 0.5f, 0);
+        transform.localPosition = new Vector3(0, 0.5f, -3.79f);
     }
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.position);
-        sensor.AddObservation(targetTransform.position);
+        sensor.AddObservation(transform.localPosition);
+        sensor.AddObservation(targetTransform.localPosition);
     }
     public override void OnActionReceived(ActionBuffers actions)
     {
         float moveX = actions.ContinuousActions[0];
         float moveZ = actions.ContinuousActions[1];
 
-        float moveSpeed = 1f;
-        transform.position += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
+        float moveSpeed = 5f;
+        transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
         //Debug.Log(actions.DiscreteActions[0]);
     }
 
@@ -30,11 +34,15 @@ public class MoveToGoals : Agent
     {
         if (other.TryGetComponent<Goal>(out Goal goal))
         {
+
+            floorMeshRend.material = winMats;
             SetReward(+1f);
             EndEpisode();
         }
         if (other.TryGetComponent<Wall>(out Wall wall))
         {
+
+            floorMeshRend.material = loseMats;
             SetReward(-1f);
             EndEpisode();
         }
